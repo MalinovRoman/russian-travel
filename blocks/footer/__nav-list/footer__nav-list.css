@@ -1,0 +1,10 @@
+
+  .footer__nav-list {
+    margin-right: 18px;
+  }
+  
+  @media  (max-width: 767px) {
+  .footer__nav-list {
+    margin-bottom: 32px;
+  }
+ }

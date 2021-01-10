@@ -1,0 +1,14 @@
+.header__lang-link_ru {
+    color: #FFFFFF;
+    margin-right: 28px; 
+    width: 30px;
+    height: 28px;
+  }
+
+  @media  (max-width: 425px) {
+    .header__lang-link_ru {
+      width: 22px;
+      height: 20px;
+    }
+  }
+
