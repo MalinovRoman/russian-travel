@@ -14,7 +14,7 @@
     opacity: 0.2;
   }
   
-  @media  (max-width: 767px) {
+  @media (max-width: 767px) {
     .cover__title {
       font-weight: 900;
       font-style: normal;
