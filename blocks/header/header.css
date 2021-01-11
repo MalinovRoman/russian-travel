@@ -8,6 +8,10 @@
     padding-top: 28px;
   }
 
+  .border {
+    border: solid red 1px;
+  }
+
   @media (min-width: 769px) and (max-width: 1024px) {
     .header {
     margin: 0 48px 56px 48px;
