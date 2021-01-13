@@ -7,22 +7,20 @@
   
   @media (min-width: 1024px) and (max-width: 1279px) {
     .places {
-      margin: 0 auto 92px auto;
       max-width: 928px;
     }
   }
   
-  @media (min-width: 768px) and (max-width: 1023px) {
+  @media (min-width: 660px) and (max-width: 1023px) {
     .places {
-      margin: 0 auto 92px auto;
       max-width: 720px;
       gap: 72px;
     }
   }
   
-  @media  (max-width: 767px) {
+  @media  (max-width: 660px) {
     .places {
-      margin: 0 auto 66px auto;
+      margin: 64px auto 66px auto;
       max-width: 320px;
       gap: 32px;
     }

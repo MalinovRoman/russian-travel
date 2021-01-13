@@ -3,9 +3,10 @@
     max-height: 152px;
     grid-column: 2;
     grid-row: 1;
-  }
+    align-self: end;
+}
   
-  @media  (max-width: 767px) {
+  @media  (max-width: 660px) {
     .place__link-coteiner {
       max-width: 320px;
       grid-column: 1;

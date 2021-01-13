@@ -9,15 +9,8 @@
     color: #FFFFFF;
   }
   
-  .cover__title:hover {
-    transition: 5s;
-    opacity: 0.2;
-  }
-
 @media (max-width: 767px) {
     .cover__title {
-      font-weight: 900;
-      font-style: normal;
       font-size: 32px;
       line-height: 35px;
       margin: 0 auto 16px auto;

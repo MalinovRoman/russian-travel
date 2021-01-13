@@ -8,8 +8,6 @@
 
   @media (min-width: 769px) and (max-width: 1023px) {
     .fhoto-grid {
-      max-width: calc(100% - 96px);
-      margin: 92px auto 92px auto;
       gap: 14px;
       grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     }
@@ -18,7 +16,6 @@
   @media (min-width: 426px) and (max-width: 768px) {
     .fhoto-grid {
       max-width: calc(100% - 48px);
-      gap: 16px;
       margin: 88px auto 88px auto;
       grid-template-columns: repeat(auto-fit, minmax(325px, 1fr));
     }
@@ -28,7 +25,7 @@
     .fhoto-grid {
       max-width: calc(100% - 36px);
       gap: 12px;
-      margin: 16px auto 16px auto;
+      margin: 64px auto 16px auto;
       grid-template-columns: repeat(auto-fit, minmax(216px, 1fr));
     }
   }

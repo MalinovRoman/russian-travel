@@ -6,17 +6,16 @@
     align-items: center;
   }
 
+  
 
-  
-  
   @media (min-width: 426px) and (max-width: 767px) {
     .lead {
+      max-width: 100%;
       margin: 0 auto 88px auto;
     }
   }
   
-  
-  
+
   @media  (max-width: 425px) {
     .lead {
       max-width: 100%;

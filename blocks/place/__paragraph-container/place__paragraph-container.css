@@ -1,4 +1,4 @@
-.place__paragraph {
+.place__paragraph-container {
     max-width: 484px;
     grid-column: 2;
     grid-row: 2;
@@ -10,25 +10,19 @@
   }
   
   @media (min-width: 768px) and (max-width: 1023px) {
-    .place__paragraph {
-      font-weight: 400;
-      font-style: normal;
+    .place__paragraph-container {
       font-size: 16px;
       line-height: 26,08px;
-      color: #FFFFFF;
     }
   }
   
-  @media  (max-width: 767px) {
-    .place__paragraph {
+  @media  (max-width: 660px) {
+    .place__paragraph-container {
       max-width: 288px;
       grid-column: 1;
       grid-row: 4;
-      font-weight: 400;
-      font-style: normal;
       font-size: 16px;
       line-height: 26.8px;
-      color: #FFFFFF;
       margin-right: 16px;
       margin-left: 16px;
     }

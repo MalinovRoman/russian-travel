@@ -7,8 +7,7 @@
     line-height: 18px;
   } 
   .footer__nav-link:hover {
-    transition: 5s;
-    opacity: 0.2;
+    opacity: 20%;
   }
  
  @media  (max-width: 767px) {
