@@ -4,14 +4,20 @@
   }
   
 
-  @media screen and (max-width: 768px) {
+  @media (max-width: 1024px) {
     .intro {
-      max-width: 720px; 
+      max-width: calc(100% - 96px);
     }
   }
-  @media screen and (max-width: 767px) {
+  @media (max-width: 768px) {
     .intro {
-      max-width: 288px;  
+      margin: 0 auto 88px;
+      max-width: calc(100% - 48px);
     }
   }
-  
+  @media (max-width: 425px) {
+    .ino {
+      margin: 0 auto 64px;
+      max-width: calc(100% - 32px);
+    }
+  }
