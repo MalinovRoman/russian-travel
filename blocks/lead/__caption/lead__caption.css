@@ -6,7 +6,8 @@
     font-weight: 400;
     font-style: normal;
     color: #FFFFFF;
-    letter-spacing: 1.5px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase; 
   }
 
   @media (min-width: 426px) and (max-width: 767px) {

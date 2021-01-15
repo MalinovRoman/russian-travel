@@ -12,10 +12,7 @@
   text-decoration: none;
 }
 
-  @media (max-width: 1280px) { 
-    .cover__overlay {
-    }
-  }
+ 
 
   @media (max-width: 1024px) { 
     .cover__overlay {
